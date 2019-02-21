@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:contexto=".view.Lista">
+
+    <TextView
+        android:id="@+id/codXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Código:"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/nomeXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Nome:"
+        android:textSize="20dp"
+        android:layout_marginLeft="20sp" />
+
+</LinearLayout>
+
+
+
